@@ -1,4 +1,5 @@
 # Credit Card Fraud Detection
+![har](img/fraud1.jpg)
 Recognizing fraudulent credit card transactions is important for credit card companies so that customers are not charged for items that they did not purchase. 
 
 In this project, I used a [dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud), which has been collected during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles). The dataset contains 284,807 transactions made by european cardholders in two days (September 2013), where we have 492 fraudulent transactions. Therefore, the dataset is highly imbalanced (the positive class (frauds) account for 0.172% of all transactions). Each transaction is measured by 31 features, where 28 features (denoted by V1, V2, ..., V28) are principal components obtained by PCA; the only two features that were not transformed are 'Time' (the seconds elapsed between each transaction) and 'Amount'; the feature 'Class' is the output variable and it takes value 1 in case of fraud and 0 otherwise.
